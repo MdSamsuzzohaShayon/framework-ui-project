@@ -1,0 +1,19 @@
+#showcase{
+    color: white;
+    height: 100vh;
+    background-image: url(../img/landscape-nature-sky-vegetation-morning-mountain-1443957-pxhere.com.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#menu{
+    background: rgba(0, 3, 39, 0.39);
+    box-shadow: 0px 15px 10px -15px #111;  
+}
+.hom-txt{
+    margin-top: 200px;
+}
+#feature{
+    margin-top: 20px 0;
+}
