@@ -6,3 +6,7 @@
 
 **One thing I didn't include image folder in this project please make an**
 
+# Blog 
+
+![Simple bootstrap blog](/simple_blog/screenshot.jpg)
+
