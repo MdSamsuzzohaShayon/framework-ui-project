@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    color: aliceblue;
+    background: green;
+}
+#showcase{
+    width: 100%;
+    height: 100vh;
+    background-image: url(flower.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu{
+    margin-top: 28px;
+    color: white;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.dorpdown{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    height: 200px;
+    width: 700px;
+    box-sizing: border-box;
+    background: rgb(10, 56, 29);
+    display: none;
+}
+.head-row{
+    float: left;
+    margin-left: 30px;
+}
+li{
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-top: 28px;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
