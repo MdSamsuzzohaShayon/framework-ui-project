@@ -8,5 +8,5 @@
 
 # Blog 
 
-![Simple bootstrap blog](/simple_blog/screenshot.jpg)
+![Real Estate Website](/screenshot.png)
 
