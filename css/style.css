@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#landing{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/house_paradise.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu, #filter{
+    background: rgba(17, 0, 17, 0.35) ;
+}
+a, .txt{
+    color: aliceblue !important;
+}
+.pr{
+    position: relative;
+}
+.img-txt{
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    left: 10px;
+    top: 20%;
+    color: white;
+    background: rgba(17, 0, 17, 0.35) ;
+}
