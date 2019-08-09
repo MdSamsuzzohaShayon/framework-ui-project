@@ -1,12 +1,6 @@
-# Real Estate
+# Stylish Travel Site
 
-[Official website](https://semantic-ui.com/)
+[Official website](https://getbootstrap.com/)
 
-### make an img folder and add some images there
-
-**One thing I didn't include image folder in this project please make an**
-
-# Real Estate Website
-
-![Real Estate Website](/screenshot.png)
+![Travel website Website](/screenshot.png)
 
