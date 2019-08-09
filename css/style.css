@@ -1,30 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Display&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-#landing{
-    height: 100vh;
+body, html{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.1rem;
+}
+#landing , .sec-3{
     width: 100%;
-    background-image: url(../img/house_paradise.jpg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: bottom;
     background-size: cover;
 }
-#menu, #filter{
-    background: rgba(17, 0, 17, 0.35) ;
+#landing{
+    height: 95vh;
+    background-image: url(../img/landing-mountain.png);
 }
-a, .txt{
-    color: aliceblue !important;
+.sec-3{
+    height: 100vh;
+    background-image: url(../img/bg-left.png);
 }
-.pr{
-    position: relative;
-}
-.img-txt{
-    position: absolute;
-    width: 90%;
-    text-align: center;
-    left: 10px;
-    top: 20%;
-    color: white;
-    background: rgba(17, 0, 17, 0.35) ;
+@media(max-width:710px){
+    .sec-3{
+        height: 300vh;
+        background-position: bottom;
+        background-image: url(../img/bg-left.png);
+    }
+    .sec-3 .row{
+        margin-top: 2rem;
+    }
 }
