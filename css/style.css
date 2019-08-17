@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.landing{
+    width: 100%;
+    height: 90vh;
+    background: url(../img/landing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 .nav-menu{
     background: none !important;
@@ -11,5 +19,30 @@
 
 
 .nav-menu a{
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
+}
+.land-blw h2{
+    text-align: center;
+}
+.land-blw .card{
+    padding: 15px;
+}
+
+
+@media (min-width:710px){
+   .land-blw .card{
+    width:  95%;
+} 
+}
+
+
+
+
+.sec-2{
+    width: 100%;
+    height: 72vh;
+    background: url(../img/sec_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
