@@ -1,33 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Display&display=swap');
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-body, html{
-    font-family: 'Libre Caslon Display', serif;
-    font-size: 1.1rem;
+
+.nav-menu{
+    background: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
-#landing , .sec-3{
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-}
-#landing{
-    height: 95vh;
-    background-image: url(../img/landing-mountain.png);
-}
-.sec-3{
-    height: 100vh;
-    background-image: url(../img/bg-left.png);
-}
-@media(max-width:710px){
-    .sec-3{
-        height: 300vh;
-        background-position: bottom;
-        background-image: url(../img/bg-left.png);
-    }
-    .sec-3 .row{
-        margin-top: 2rem;
-    }
+
+
+.nav-menu a{
+    color: black !important;
 }
