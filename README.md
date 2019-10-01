@@ -1,7 +1,7 @@
-# Semantic UI
+# CSS  Distribution
 
-[Official website](https://semantic-ui.com/)
+This repository is automatically synced with the main [Semantic UI](https://github.com/Semantic-Org/Semantic-UI) repository to provide lightweight CSS only version of Semantic UI.
 
-[Youtube Tutorial](https://www.youtube.com/watch?v=MPN1IbGKHYI&t=9s)
+This package **does not support theming** and includes generated CSS files of the default theme only.
 
-![Sceenshots of the website](sceenshots.png)
+You can view more on Semantic UI at [LearnSemantic.com](http://www.learnsemantic.com) and [Semantic-UI.com](http://www.semantic-ui.com)
