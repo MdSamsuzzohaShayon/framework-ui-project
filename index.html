@@ -1,3 +1,4 @@
+<!-- https://preview.themeforest.net/item/woodmart-woocommerce-wordpress-theme/full_screen_preview/20264492?_ga=2.191204266.1626159682.1570178613-1168670394.1567151153 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ecommerce</title>
-    <link rel="stylesheet" href="semantic.min.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- .site>.ui.menu.mini.inverted.black>.ui.container>.left.menu>.item*2>a -->
     <div class="site">
         <!-- SMALL MENU BEGAIN -->
-        <div class="ui menu mini inverted black" id="small-menu" style="padding: 0 !important; margin: 0 !important;">
+        <div class="ui stackable menu mini inverted black" id="small-menu"
+            style="padding: 0 !important; margin: 0 !important;">
             <div class="ui container">
                 <div class="left menu">
                     <div class="item"><a href="#"> <i class="phone volume icon"></i> +8801885208590</a></div>
@@ -46,55 +48,81 @@
 
         <!-- LARGE MENU START -->
         <!-- .ui.secondary.inverted.white.massive.menu#large-menu>.ui.container>.left.menu>.item -->
-        <div class="ui secondary inverted massive menu" id="large-menu"
-            style="background: rgb(179, 179, 179) !important; padding: 0 !important; margin: 0 !important;">
-            <div class="left menu">
-                <div class="item"><i class="handshake inverted green icon huge"></i></div>
-            </div>
-            <!-- <div class="ui container">
-                
-                
-            </div> -->
-            <a class="browse item dd-item">Home<i class="dropdown icon"></i></a>
-            <div class="right menu">
-                <div class="item">Search</div>
-                <div class="item">Love</div>
-                <div class="item">Card</div>
-            </div>
-        </div>
-        <!-- HOME ELEMENTS START  -->
-        <div class="ui flowing basic admission popup">
-            <div class="ui three column relaxed divided grid">
-                <div class="column">
-                    <h4 class="ui header">Business</h4>
-                    <div class="ui link list">
-                        <a class="item">Design &amp; Urban Ecologies</a>
-                        <a class="item">Fashion Design</a>
-                        <a class="item">Fine Art</a>
-                        <a class="item">Strategic Design</a>
+
+        <div class="ui segment medium stackable menu" id="large-menu"
+            style="padding: 0 !important; margin: 0 !important;">
+            <div class="ui container">
+                <div class="left menu">
+                    <div class="item"><i class="handshake inverted olive icon huge"></i></div>
+                </div>
+                <!-- <div class="ui container">
+                            
+                            
+                        </div> -->
+
+                <div class="item">
+                    <div class="ui action input">
+                        <input type="text" placeholder="Search...">
+                        <select class="ui compact selection dropdown">
+                            <option selected="" value="articles">Category</option>
+                            <option value="products">Furniture</option>
+                            <option value="all">Cooking</option>
+                            <option value="all">Toys</option>
+                            <option value="all">Cars</option>
+                        </select>
+                        <div class="ui button olive">Search</div>
                     </div>
                 </div>
-                <div class="column">
-                    <h4 class="ui header">Liberal Arts</h4>
-                    <div class="ui link list">
-                        <a class="item">Anthropology</a>
-                        <a class="item">Economics</a>
-                        <a class="item">Media Studies</a>
-                        <a class="item">Philosophy</a>
-                    </div>
-                </div>
-                <div class="column">
-                    <h4 class="ui header">Social Sciences</h4>
-                    <div class="ui link list">
-                        <a class="item">Food Studies</a>
-                        <a class="item">Journalism</a>
-                        <a class="item">Non Profit Management</a>
-                    </div>
+                <div class="right menu">
+                    <div class="item">Login/Register</div>
+                    <div class="item"><i class="heart icon"></i></div>
+                    <div class="item"><i class="cart plus icon"></i> 0.00$</div>
                 </div>
             </div>
         </div>
-        <!-- HOME ELEMENT ENDS  -->
         <!-- LARGE MENU ENDS -->
+
+        <!-- LANDING START -->
+
+        <div class="ui grid container">
+            <!-- <div class="doubling row"> -->
+                <div class="four wide column">
+                    <div class="ui vertical menu">
+                        <a class="active olive item">
+                            Inbox
+                        </a>
+                        <a class="item">
+                            Spam
+                        </a>
+                        <a class="item">
+                            Updates
+                        </a>
+                        <a class="item">
+                            Spam
+                        </a>
+                        <a class="item">
+                            Updates
+                        </a>
+                        <a class="item">
+                            Spam
+                        </a>
+                        <a class="item">
+                            Updates
+                        </a>
+                        <a class="item">
+                            Spam
+                        </a>
+                        <a class="item">
+                            Updates
+                        </a>
+                    </div>
+                </div>
+                <div class="ten wide column">
+                    <img src="img/ecmrce.jpg" alt="" class="ui fluid image">
+                </div>
+            <!-- </div> -->
+        </div>
+        <!-- LANDING ENDS -->
     </div>
 
 
@@ -105,9 +133,9 @@
 
 
 
-    <script src="jquery.min.js"></script>
-    <script src="semantic.min.js"></script>
-    <script src="main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
