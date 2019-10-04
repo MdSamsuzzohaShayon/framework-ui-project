@@ -1,5 +1,7 @@
 # Bootstrap Blog
 
+[youtube tutorial](https://www.youtube.com/watch?v=5SM7msonH8Q&list=PLDbgPtNOy-yCiZ3XOpXIgxaR4CPKQNbdn&index=3)
+
 [Official website](https://getbootstrap.com)
 
 ### make an img folder and add some images there
@@ -8,5 +10,5 @@
 
 # Blog 
 
-![Simple bootstrap blog](/simple_blog/screenshot.jpg)
+![Simple bootstrap blog](screenshot.jpg)
 
