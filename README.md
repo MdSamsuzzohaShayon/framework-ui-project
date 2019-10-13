@@ -1,3 +1,8 @@
+# Ecommerce Site
+
+ ![Ecommerce Thumbnail](thumbnail.jpg)
+
+
 # CSS  Distribution
 
 This repository is automatically synced with the main [Semantic UI](https://github.com/Semantic-Org/Semantic-UI) repository to provide lightweight CSS only version of Semantic UI.
