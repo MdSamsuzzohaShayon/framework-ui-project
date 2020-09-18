@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
+
+$card-text-color: #6F7C8F;
+$menu-bg-color: #002255;
+
+// BOOTSTRAP OVERRIDE HERE
+$font-size-base: 0.9rem;
+$font-family-base: 'Zilla Slab', serif;
+$list-group-border-width: none;
+$card-border-width: none;
+$list-group-color:$card-text-color;
+$list-group-bg: none;
+$card-bg: none;
+$card-color:$card-text-color;
+$card-height: 80%;
+$card-bg: $menu-bg-color;
+$card-deck-margin: 5%;
+
+
+@import "../bootstrap/scss/bootstrap.scss";
+
+
+
+
+// OUR CODE
+
+.whole-website{
+    .icon{
+        height: 20px;
+    }
+    .nav-link{
+        color: black !important;
+    }
+    .main-nav{
+        font-size: 1.1rem;;
+    }
+    .menu-box-containe{
+        position: absolute;
+        .box{
+            position: relative;
+            top: 0;
+            left: 17%;
+            z-index: 1;
+            display: none;
+            background: #061833;
+        }
+        .box-preview{
+            display: block;
+        }
+    }
+    .side-menu-containe{
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        .side-menu {
+                .site-heading{
+                    color: $menu-bg-color;
+                }
+                li{
+                    color: $menu-bg-color;
+                }
+                a{
+                    color: $menu-bg-color;
+                    text-decoration: none;
+                }
+        }
+    }
+    
+    
+    .border-right{
+        border-right: solid 1px $card-text-color !important;
+    }
+        .card-deck{
+                .card-body{  
+                    // width: 200px !important;
+                    .card-text{
+                        width: 80%;
+                        font-size: 0.6em !important;
+                    }
+                }
+        }
+}
+
+
+
+
+
+
+
